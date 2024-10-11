@@ -1,4 +1,4 @@
-﻿#include <windows.h>
+#include <windows.h>
 #include <iostream>
 using namespace std;
 
@@ -67,7 +67,6 @@ int main()
     Kalk("Произведение = ", _MUL(7, 3));
 
     Kalk("Частное = ", _DIV(10, 2));
-    Kalk("Деление на ноль = ", _DIV(10, 0));
 
     checkSign(5.7);
     checkSign(-3.5);
